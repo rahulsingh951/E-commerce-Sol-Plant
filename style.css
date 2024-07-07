@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;300&family=Kanit:ital,wght@0,300;0,500;1,200&family=Montserrat:ital,wght@0,300;0,700;1,300&family=Shadows+Into+Light&family=Ubuntu:ital,wght@0,300;1,300;1,400&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Kalnia', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+
+.container {
+    margin: 0px 50px 0px 50px;
+
+}
+
+.main-btn {
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    background-color: #5d8834;
+    font-size: 16px;
+    border: 0.2px solid black;
+    /* animation: button 2s ease-in 1s move  alternate-reverse;
+    animation-co */
+}
+
+.main-btn:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.Secondary-btn {
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    color: #5d8834;
+    background-color: #fff;
+    font-size: 16px;
+    border: 0.2px solid black;
+
+}
+
+.Secondary-btn:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.sub-header {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #5d8834;
+    padding: 10px;
+}
+
+.sub-header-text {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.main-header {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    /* position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%; */
+    background-color: #fff;
+}
+
+.main-header .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.main-header .header ul {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #182625;
+
+}
+
+.main-header .header ul a {
+    font-size: 18px;
+    color: #182625;
+
+}
+
+.icon li {
+    border: 1px solid #dddddd;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #5d8834;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.icon ul :hover {
+    color: #fff;
+    background-color: #5d8834;
+}
+
+.background {
+    width: 100%;
+    height: 110vh;
+    /* background-image: url(./images/hero-2.png); */
+    position: relative;
+}
+
+.bg-text {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+    color: #5d8834;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    display: grid;
+    padding: 20px 50px 50px 20px;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 330px 330px;
+    grid-gap: 20px;
+}
+
+.card1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card1 :hover {
+    color: white;
+    background-color: green;
+}
+
+.card1 .card-text {
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    padding: 20px;
+    font-size: 25px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+}
+
+.card2 {
+
+    /* grid-column-start: 3;
+    grid-column-end: 4; */
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card2 .card-text2 {
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+    text-align: center;
+}
+
+.card3 {
+    /* grid-column-start: 4;
+    grid-column-end: 5; */
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card3 .card-text3 {
+    position: absolute;
+    top: 30%;
+    right: 1%;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+}
+
+.card4 {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: relative;
+}
+
+.card4 .card-text4 {
+    position: absolute;
+    top: 40%;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+}
+
+.card5 {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card5 .card-text5 {
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+    text-align: center;
+}
+
+.card6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card6 .card-text6 {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    padding: 20px;
+    font-size: 25px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+}
+
+.mid-text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 35px;
+}
+
+.mid-text ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.plant-cards {
+    width: 96%;
+    height: auto;
+    display: grid;
+    margin-top: 2%;
+    padding-left: 2%;
+    grid-template-columns: 21% 22% 22% 21%;
+    grid-template-rows: 400px 400px;
+    grid-gap: 2%;
+    justify-content: center;
+}
+
+.plant-cards .plant .photo {
+    width: 100%;
+    height: 70%;
+}
+
+.plant-cards .plant .txt {
+    text-align: center;
+    padding: 2%;
+}
+
+.pro-btn {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pro-btn .main-btn {
+    width: auto;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #5d8834;
+    font-size: 16px;
+    border: 0.2px solid black;
+}
+
+.timer-background {
+    padding: 20px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.timer-background .bg-txt {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    font-size: 25px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+    color: black;
+}
+
+.slider {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40vh;
+    background-color: aqua;
+}
+
+.email-box {
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+}
+
+.email {
+    width: 50%;
+    height: auto;
+    background-image: url(./images/join-newsletter.png);
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 4%;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+}
+
+.card {
+    width: 50%;
+    height: auto;
+    display: grid;
+    /* padding: 20px 50px 50px 20px; */
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 160px 160px;
+    /* grid-gap: 20px; */
+}
+
+.card .card-plants1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.product-card {
+    width: 90%;
+    height: auto;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 100px;
+    /* padding: 20px 50px 50px 20px; */
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 220px 220px;
+    grid-gap: 40px;
+
+}
+
+.product-card .card-plants {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.product-card .card-plants .photo {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.product-card .card-plants .txt {
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.product-card .card-plants .txt .icon ul li {
+    border: 1px solid #dddddd;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.card-plants .txt .icon ul {
+    gap: 10px;
+}
+
+.gap {
+    width: 100%;
+    height: 50px;
+}
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: green;
+}
+
+.footer-box {
+    width: 90%;
+    height: auto;
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr;
+    /* border: 1px solid black; */
+}
+
+.footer .f-upper {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    background-color: #fff;
+    /* border: 1px solid black; */
+    display: flex;
+    transform: translateY(-50%);
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.footer .f-upper .f-upper1 {
+    width: 25%;
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    color: green;
+}
+
+.f-icon {
+    margin: 10% 0% 10% 10%;
+}
+
+.f-para {
+    margin: 5% 0% 0% 4%;
+}
+
+.nav2 ul {
+    gap: 10px;
+    font-size: 18px;
+    padding: 20px;
+
+}
+
+.nav2 {
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .f-down {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 60px;
+    height: auto;
+    border-top: 1px solid white;
+}
+
+.background-about {
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/about\ cover.png);
+    position: relative;
+}
+.background-about1 {
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/blogbc.png);
+    position: relative;
+}
+
+.background-about .heading-about {
+    color: #ffff;
+    position: absolute;
+    top: 28%;
+    left: 38%;
+    font-size: 23px;
+    font-family: "Montserrat";
+
+}
+.background-about1 .heading-about {
+    color: #ffff;
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    font-size: 23px;
+    font-family: "Montserrat";
+
+}
+
+.product-about {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px;
+}
+
+.product-about .pro-about {
+    font-size: larger;
+    padding: 3%;
+}
+
+.achieve-photo {
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+    padding-left: 2%;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 24% 24% 24%;
+    grid-gap: 2%;
+}
+
+.achieve-photo .photos1 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.achieve-photo .photos2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.bcgd-image{
+    width: 100;
+    height: 100vh;
+    
+}
+.text-image{
+    width: 93%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    padding: 20px;
+
+}
+
+.comment{
+    width: 93%;
+    height: 30vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.comment-form{
+    width: 93%;
+    height: 50vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 1%;
+}
+
+.comment-box{
+    margin: 1% 20% 10% 15%;
+    width: 70%;
+    height: 40vh;
+    background-color: black;
+}
+
+/* Product */
+.background-1about{
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/product-bg.png);
+    position: relative;
+}
+.background-1about .heading-1about {
+    color: darkgreen;
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    font-size: 23px;
+    font-family: "Montserrat";
+
+}
